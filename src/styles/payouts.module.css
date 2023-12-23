@@ -1,0 +1,15 @@
+.main_container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar_container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 15%;
+}
+
+.sub_container {
+  width: 100%;
+}

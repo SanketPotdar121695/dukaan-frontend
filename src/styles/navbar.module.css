@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  padding: 12px 32px;
+  align-items: center;
+  gap: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.sub_container1 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.text_container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.text {
+  color: #1a181e;
+  /* Heading/H5 */
+  font-family: 'Galano Grotesque';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+.how_to_use {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.how_it_works {
+  color: #4d4d4d;
+  /* Caption/Regular */
+  font-family: 'Galano Grotesque';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.sub_container2 {
+  display: flex;
+  width: 30%;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 6px;
+  background: #f2f2f2;
+}
+
+.input {
+  color: #808080;
+  /* Body 1/Regular */
+  font-family: 'Galano Grotesque';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  background: none;
+  line-height: 22px; /* 146.667% */
+}
+
+.sub_container3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.icons {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #e6e6e6;
+  border-radius: 50%;
+}

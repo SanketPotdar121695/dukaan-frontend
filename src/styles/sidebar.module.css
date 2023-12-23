@@ -1,0 +1,159 @@
+.nav_container {
+  display: flex;
+  height: 100vh;
+  padding: 16px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  background: #1e2640;
+  color: #ffffff;
+}
+
+.nav_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+  flex: 1 0 0;
+}
+
+.company_icon {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 12px;
+}
+
+.rectangle {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.company_logo {
+  width: 39px;
+  height: 39px;
+  position: absolute;
+  top: 0.5px;
+  left: 0.5px;
+  border-radius: 4px;
+  background: lightgray 50% / contain no-repeat;
+}
+
+.company_frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.text {
+  align-self: stretch;
+}
+
+.company_name {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
+
+.visit_store {
+  font-family: 'Galano Grotesque';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  text-decoration-line: underline;
+  opacity: 0.8;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.nav_button {
+  display: flex;
+  width: 208px;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 4px;
+}
+
+.nav_bottom {
+  display: flex;
+  width: 100%;
+  padding: 6px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #353c53;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.frame {
+  display: flex;
+  padding: 6px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.bottom_links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.available_credits,
+.value {
+  color: var(--Black-100, #fff);
+  font-family: Inter;
+  font-style: normal;
+}
+
+.available_credits {
+  /* Sub Body/Regular */
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  opacity: 0.8;
+}
+
+.value {
+  /* Sub Title/Medium */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}

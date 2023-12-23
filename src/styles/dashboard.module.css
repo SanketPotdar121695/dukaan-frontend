@@ -1,0 +1,333 @@
+.main_frame {
+  display: flex;
+  margin: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  color: #fff;
+  background: #fafafa;
+}
+
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.sub_frame1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.overview_text {
+  color: #1a181e;
+  font-family: 'Galano Grotesque';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+.sub_frame1_container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 6px 14px;
+  gap: 6px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.sub_frame1_container > p {
+  color: #4d4d4d;
+  font-family: 'Galano Grotesque';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.sub_frame2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.mini_frame1 {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #146eb4;
+}
+
+.mini_frame1 > div:first-child {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.mini_frame1 > div:first-child > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.order_container {
+  display: flex;
+  align-items: center;
+}
+
+.next_payout {
+  color: #fff;
+  /* Sub Title/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.next_payout_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mini_frame1 > div:last-child {
+  display: flex;
+  padding: 8px 24px;
+  width: 100%;
+  border-radius: 8px;
+  background: #0e4f82;
+  bottom: 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.payment {
+  color: #fff;
+  font-family: 'Galano Grotesque';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 118.75% */
+}
+
+.orders {
+  color: #fff;
+  font-family: 'Galano Grotesque';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+.next_payout_date,
+.date {
+  color: #f2f2f2;
+  font-family: 'Galano Grotesque';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.date {
+  font-weight: 500;
+}
+
+.mini_frame2,
+.mini_frame3 {
+  background: #fff;
+}
+
+.mini_frame2 {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+
+.mini_frame2 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.pending_amount {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.amount_pending {
+  color: #4d4d4d;
+  /* Sub Title/Regular */
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.actual_amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.actual_amount > div {
+  display: flex;
+  align-items: center;
+}
+
+.actual_amount > div > p {
+  color: #146eb4;
+  font-family: 'Galano Grotesque';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+.actual_pending_amount {
+  color: #1a181e;
+  font-family: 'Galano Grotesque';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 118.75% */
+}
+
+.mini_frame3 {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+
+.mini_frame3 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.mini_frame3 > div > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.processed_amount {
+  color: #4d4d4d;
+  /* Sub Title/Regular */
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.amount_processed {
+  color: #1a181e;
+  font-family: 'Galano Grotesque';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 118.75% */
+}
+
+.frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: #1a181e;
+}
+
+.transactions {
+  font-family: 'Galano Grotesque';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+.sub_frame3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.sub_frame3 > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.sub_frame3 > div > div:first-child {
+  gap: 6px;
+  background: #146eb4;
+}
+
+.sub_frame3 > div > div:last-child {
+  gap: 10px;
+  background: #e6e6e6;
+}
+
+.sub_frame3 > div > div:first-child > p {
+  color: #fff;
+}
+
+.sub_frame3 > div > div:last-child > p {
+  color: #808080;
+}
+
+.sub_frame3 > div > div {
+  display: flex;
+  padding: 6px 16px;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.sub_frame3 > div > div > p {
+  /* Body 2/Medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.sub_frame4 {
+}

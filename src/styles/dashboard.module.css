@@ -1,3 +1,7 @@
+.parent_frame {
+  background: #fafafa;
+}
+
 .main_frame {
   display: flex;
   margin: 32px;
@@ -5,7 +9,6 @@
   align-items: flex-start;
   gap: 32px;
   color: #fff;
-  background: #fafafa;
 }
 
 .frame1 {

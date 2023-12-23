@@ -409,9 +409,10 @@ const Sidebar = () => {
           </div>
         </div>
         <div className={Styles.pages}>
-          {pages.map((page) => {
+          {pages.map((page, i) => {
             return (
               <div
+                key={i}
                 className={Styles.page}
                 style={{
                   background: page.content === 'Payouts' ? '#FFFFFF1A' : 'none'

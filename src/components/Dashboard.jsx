@@ -213,7 +213,9 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className={Styles.sub_frame4}></div>
+        <div className={Styles.sub_frame4}>
+          
+        </div>
       </div>
     </div>
   );
